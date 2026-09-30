@@ -1,0 +1,78 @@
+Q1 Sample Test
+3 1 2
+101 Alice 1 9.5 80 90
+102 Bob 1 9.0 85 85
+103 Charlie 2 8.5 70 80
+
+Q1 Boundary Test (0 Students)
+0 1 2
+
+Q1 Additional Test 1 (Tie-breaker on CPI/Marks/Enrollment)
+3 2 1
+B02 Sameer 1 9.0 100
+A01 Aman 1 9.0 100
+C03 Rahul 1 9.0 99
+
+Q1 Additional Test 2 (Testing Invalid Input Recovery)
+invalid input
+2 1 1
+missing_fields
+X01 Valid 1 8.0 50
+X02 Valid2 1 9.0 60
+
+Q1 Additional Test 3 (Requesting more top students than available, k > n)
+2 5 2
+Z1 A 1 8.0 40 40
+Z2 B 1 9.0 50 50
+
+Q2 Sample Test (Password Strength)
+1
+admin
+3
+admin123!A
+Short
+StrongPass1!
+
+Q3 Sample Test (Expression Evaluator)
+2
+a=10
+b=(a+5)*2
+b-a
+
+Q4 Sample Test (CSV Processor)
+transactions.csv
+
+Q5 Sample Test (Banking System)
+2
+ACC1 1000
+ACC2 500
+3
+DEPOSIT ACC1 200
+WITHDRAW ACC2 100
+TRANSFER ACC1 ACC2 300
+
+Q6 Sample Test (Module Dependency)
+3 2
+A
+B
+C
+A B
+B C
+
+Q7 Sample Test (Interactive Calculator)
+x=10
+y=5
+x + y
+quit
+
+Q8 Sample Test (Log Indexer)
+.
+
+Q9 Sample Test (Multi-Threaded Job Scheduler)
+2 3
+0 J1 1 5 1
+1 J2 2 3 1
+2 J3 3 2 1
+
+Q10 Sample Test (GUI Tracker)
+Run `python Q_10.py` to launch the GUI and test adding/filtering records manually.
